@@ -1,7 +1,6 @@
 // main.js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { AppContainer } from 'react-hot-loader'
