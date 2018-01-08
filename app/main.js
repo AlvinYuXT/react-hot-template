@@ -24,7 +24,7 @@ render(App)
 
 // Webpack Hot Module Replacement API
 if (module.hot) {
-  const App = require('./containers/App').default
+  // const App = require('./containers/App').default
   module.hot.accept('./containers/App', () => {
     render(App)
   })
